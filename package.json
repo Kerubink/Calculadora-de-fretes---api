@@ -1,0 +1,23 @@
+{
+  "name": "Calculadora-de-fretes---api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Kerubink/Calculadora-de-fretes---api.git",
+  "author": "Kauã Kelvyn <ckaua504@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
